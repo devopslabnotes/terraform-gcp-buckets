@@ -13,8 +13,12 @@ variable "region" {
     type = string
 }
 
-variable "gcp_sa_key" {
-    description = "GCP service account key json"
+variable "workload_identity_provider" {
+    description = "Workload Identity provider resource ID"
     type = string
-    sensitive = true
+}
+
+variable "impersonate_service_account" {
+    description = "Email of the service account to impersonate"
+    type = string
 }
