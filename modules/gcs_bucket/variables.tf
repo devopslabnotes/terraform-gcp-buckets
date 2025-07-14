@@ -15,7 +15,7 @@ variable "force_destroy" {
     default = false
 }
 
-variable "versioining_enabled" {
+variable "versioning_enabled" {
     description = "Enable versioing on the bucket"
     type = bool
     default = true

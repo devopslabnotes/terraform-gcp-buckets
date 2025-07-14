@@ -14,8 +14,8 @@ resource "google_storage_bucket" "this" {
     location = var.location
     force_destroy = var.force_destroy
 
-    versioining {
-        enabled = var.versioining_enabled
+    versioning {
+        enabled = var.versioning_enabled
     }
 
     lifecycle_rule {
