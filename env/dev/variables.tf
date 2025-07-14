@@ -13,12 +13,12 @@ variable "region" {
     type = string
 }
 
-variable "GOOGLE_WORKLOAD_IDENTITY_PROVIDER" {
+variable "Workload_identity_provider" {
     description = "Workload Identity provider resource ID"
     type = string
 }
 
-variable "GOOGLE_SERVICE_ACCOUNT_EMAIL" {
+variable "impersonate_service_account" {
     description = "Email of the service account to impersonate"
     type = string
 }
